@@ -17,9 +17,9 @@ public class Game extends Canvas implements Runnable {
     public boolean running = false;
 
     public Game(){
+
         Dimension size = new Dimension(width*scale, height*scale);
         setPreferredSize(size);
-
         frame = new JFrame();
     }
 
@@ -40,7 +40,7 @@ public class Game extends Canvas implements Runnable {
 
     public void run() {
         while (running){
-            System.out.println("Hiiiiiiiiiiiiiiiiiiiiiiiiiii");
+            System.out.println("Game window is running");
 
         }
     }
