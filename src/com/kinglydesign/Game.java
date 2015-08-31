@@ -8,6 +8,7 @@ import java.awt.*;
  */
 public class Game extends Canvas implements Runnable {
 
+    private static String version = "1.0.2 BETA";
     public static int width = 1920;
     public static int height = 1080;
     public static int scale = 3;
@@ -48,7 +49,7 @@ public class Game extends Canvas implements Runnable {
         Game game = new Game();
         game.frame.setResizable(true);
         game.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        game.frame.setTitle("Dungeon Master");
+        game.frame.setTitle(" Dungeon Master " + version);
         game.frame.add(game);
         game.frame.pack();
         game.frame.setLocationRelativeTo(null);
