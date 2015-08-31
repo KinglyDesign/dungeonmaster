@@ -46,7 +46,7 @@ public class Game extends Canvas implements Runnable {
     }
     public static void main(String[] args){
         Game game = new Game();
-        game.frame.setResizable(false);
+        game.frame.setResizable(true);
         game.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         game.frame.setTitle("Dungeon Master");
         game.frame.add(game);
